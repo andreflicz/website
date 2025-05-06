@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Andre Lopez</title>
+ <link rel="stylesheet" href="stylecss2.css">
+</head>
+<body>
+
+ <header class="header">
+  <h1><strong>Andre Lopez </strong></h1>
+   <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+ </header>
+
+<nav id="menu" class="menu">
+  <ul class="buttonclick">
+    <li><a href="https://forms.gle/QPxJXGtur9wVkK1G6" target="_blank">Contact</a></li>
+  </ul>
+</nav>
+
+
+ <script>
+  function toggleMenu() {
+   var menu = document.getElementById("menu");
+   // Toggle the 'show' class on the menu
+   menu.classList.toggle("show");
+  }
+
+  document.querySelector('.menu-toggle').addEventListener('click', function () {
+      document.querySelector('.menu').classList.toggle('open');
+    });
+ </script>
+
+  
+  <div class="bio"> 
+   <h2 class="bio-title">About</h2><h3 class="allabout"><strong> A multifaceted creative with a passion for blending visuals and technology.</strong></h3><p1 class ="bio-text"> 
+  With expertise in creative media production and software development, Andre brings a unique, well-rounded skill set to
+  every project. His approach is rooted in creativity and precision, ensuring that each piece not only functions
+  seamlessly but also captivates visually. Whether telling stories through media or crafting custom solutions, his diverse
+  background allows him to create experiences that truly stand out.</p1></div>
+
+
+
+
+  <div class="main-container">
+   <!-- Cameraman Section -->
+   <div class="section cameraman">
+    <a href="https://andreflicz.mypixieset.com/" target="_blank">
+     <div class="hover-effect">
+      <h2>Camera work</h2>
+      <img src="/images/Asset 1.png" alt="Cameraman" class="profile-pic">
+     </div>
+    </a>
+   </div>
+
+   <!-- Software Engineer Section -->
+   <div class="section"> 
+    <a href="/website/coding.html">  
+     <div class="hover-effect">
+      <h2>Software Engineer</h2>
+      <img src="/images/china guanzsho-4.jpg" alt="Software Engineer" class="profile-pic">
+     </div>
+    </a>
+   </div>
+  </div>
+ </div>
+  <div><p class="bottomconstruction">website is under construction. Please refer to links for available portfolios</p></div> 
+</body>
+</header>
+
+</html>
