@@ -1,0 +1,24 @@
+/*
+class selectors
+*/
+
+.prices{
+color: green;
+}
+
+.table {
+ color: rgba(0, 0, 255, 0.027);
+ background-color: blueviolet;
+}
+
+div{
+ color:rgb(205, 50, 50);
+ background: rgba(34, 123, 98, 1)
+}
+span{
+ text-transform: uppercase;
+}
+
+
+
+
